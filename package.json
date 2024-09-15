@@ -1,0 +1,21 @@
+{
+  "name": "app-linkshot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serverjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss -i ./input/Style.css -o ./src/output.css --watch",
+    "node:start": "node /media/maurice/Maurice\\ Data/MES\\ PROJETS/App\\ Linkshot/Back-end/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "mysql2": "^3.11.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.11"
+  }
+}
